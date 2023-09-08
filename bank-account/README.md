@@ -28,6 +28,14 @@ You must create a Java project applying what we saw until now, incluiding: Git a
 
 Then, I looked for information to build the programm upon that list.
 
+| Useful Links |
+|--------------|
+| [Scanner class](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html) | 
+| [String class](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html) | 
+| [concat method](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#concat-java.lang.String-) |
+| [Java InputMismatchException](https://stackoverflow.com/questions/21143028/ ) |exception-in-thread-main-java-util-inputmismatchexception
+            
+
 **Second**, as I coded the main function, I noticed it was getting a bit crowded with messages that were not necessary functionality wise. So, I decided to create a separate class *'WelcomeMessage'* to contain a greeting.
 
 <details>
