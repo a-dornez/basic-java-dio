@@ -22,9 +22,18 @@ public class TerminalAccount {
          double accountBalance = scanner.nextDouble();
 
         //printing user inputs
-        System.out.println("\nHi, " + clientsFirstName + " " + clientsLastName + ", thank you for creating a account in our bank! Your agency is "
-         + agencyNumber + ", account " + accountNumber + " and your account's balance is $" + accountBalance +
-          ", avaliable for withdrawal.\n");
+       
+        /*  using '+' operator
+        * System.out.println("\nHi, " + clientsFirstName + " " + clientsLastName + ", thank you for creating a account in our bank! Your agency is "
+        * + agencyNumber + ", account " + accountNumber + " and your account's balance is $" + accountBalance +
+        *  ", avaliable for withdrawal.\n"); 
+        */
+       
+        System.out.println("\nHi, ".concat(clientsFirstName).concat(" ").concat(clientsLastName)
+        .concat(", thank you for creating a account in our bank! Your agency is "
+        .concat(agencyNumber).concat(", account ") + accountNumber +" ".concat(" and your account balance is $") 
+        + accountBalance +" ".concat("avalaible for withdrawal.\n")));
+
         System.out.println("We wish you a wonderful day!\n");
           
         scanner.close();
