@@ -22,10 +22,10 @@ public class TerminalAccount {
          double accountBalance = scanner.nextDouble();
 
         //printing user inputs
-        System.out.println("\nHi, " + clientsFirstName + " " + clientsLastName + " thank you for creating a account in our bank, your agency is "
+        System.out.println("\nHi, " + clientsFirstName + " " + clientsLastName + ", thank you for creating a account in our bank! Your agency is "
          + agencyNumber + ", account " + accountNumber + " and your account's balance is $" + accountBalance +
-          " avaliable for withdrawal.\n");
-        System.out.println("We wish you a wonderful day!");
+          ", avaliable for withdrawal.\n");
+        System.out.println("We wish you a wonderful day!\n");
           
         scanner.close();
     }
