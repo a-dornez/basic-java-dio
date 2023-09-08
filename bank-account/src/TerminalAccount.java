@@ -14,13 +14,15 @@ public class TerminalAccount {
          String agencyNumber = scanner.next();
         System.out.println("Now, enter you account number: ");
          int accountNumber = scanner.nextInt();
-        System.out.println("This time, inform your first and last name: " );
-         String clientsName = scanner.next();
+        System.out.println("This time, inform your first name: " );
+         String clientsFirstName = scanner.next();
+        System.out.println("Enter your last name: ");
+         String clientsLastName = scanner.next();
         System.out.println("To finish, inform you initial deposit: ");
          double accountBalance = scanner.nextDouble();
 
         //printing user inputs
-        System.out.println("\nHi " + clientsName + " thank you for creating a account in our bank, your agency is "
+        System.out.println("\nHi, " + clientsFirstName + " " + clientsLastName + " thank you for creating a account in our bank, your agency is "
          + agencyNumber + ", account " + accountNumber + " and your account's balance is " + accountBalance +
           " avaliable for withdrawal.\n");
         System.out.println("We wish you a wonderful day!");
