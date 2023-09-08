@@ -22,3 +22,8 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+smart-tv/.vscode/settings.json
+
+#Diretories with code along material from classes
+basic-java-dio/java-terminal
+basic-java-dio/smart-tv
