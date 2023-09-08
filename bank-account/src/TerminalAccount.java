@@ -23,7 +23,7 @@ public class TerminalAccount {
 
         //printing user inputs
         System.out.println("\nHi, " + clientsFirstName + " " + clientsLastName + " thank you for creating a account in our bank, your agency is "
-         + agencyNumber + ", account " + accountNumber + " and your account's balance is " + accountBalance +
+         + agencyNumber + ", account " + accountNumber + " and your account's balance is $" + accountBalance +
           " avaliable for withdrawal.\n");
         System.out.println("We wish you a wonderful day!");
           
