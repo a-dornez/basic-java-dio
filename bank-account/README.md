@@ -33,7 +33,8 @@ Then, I looked for information to build the programm upon that list.
 | [Scanner class](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html) | 
 | [String class](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html) | 
 | [concat method](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#concat-java.lang.String-) |
-| [Java InputMismatchException](https://stackoverflow.com/questions/21143028/ ) |exception-in-thread-main-java-util-inputmismatchexception
+| [Java InputMismatchException](https://stackoverflow.com/questions/21143028/ ) |
+| [Scanning first and last name to a single variable (dealing with whitespace automatic break)](https://stackoverflow.com/questions/44042979/scanner-nextline-not-reading-first-name-and-last-name)
             
 
 **Second**, as I coded the main function, I noticed it was getting a bit crowded with messages that were not necessary functionality wise. So, I decided to create a separate class *'WelcomeMessage'* to contain a greeting.
@@ -49,14 +50,6 @@ Then, I looked for information to build the programm upon that list.
    
 <br/>
 
-**Third**, I had input problems using a sole string to alocate user's full name, said problem was caused by a white space between first and last name. As a *temporary* solution, I separated the original userName variable in two variables firstName and lastName.
+**Third**, I had input problems using a sole string to alocate user's full name, said problem was caused by a white space between first and last name. **SOLVED!** (Previous state: As a *temporary* solution, I separated the original userName variable in two variables firstName and lastName). 
 
-
-
-
-
-
-
-
-
-
+Someone had the same issue years ago, [**this thread**](https://stackoverflow.com/questions/44042979/scanner-nextline-not-reading-first-name-and-last-name) had an solution. (same link added to 'useful links' table)

@@ -14,23 +14,13 @@ public class TerminalAccount {
          String agencyNumber = scanner.next();
         System.out.println("Now, enter you account number: ");
          int accountNumber = scanner.nextInt();
-        System.out.println("This time, inform your first name: " );
-         String clientsFirstName = scanner.next();
-        System.out.println("Enter your last name: ");
-         String clientsLastName = scanner.next();
+        System.out.println("Enter your first and last name: ");
+         String clientsName = scanner.next() + " " + scanner.next(); 
         System.out.println("To finish, inform you initial deposit: ");
          double accountBalance = scanner.nextDouble();
 
         //printing user inputs
-       
-        /*  using '+' operator
-        * System.out.println("\nHi, " + clientsFirstName + " " + clientsLastName + ", thank you for creating a account in our bank! Your agency is "
-        * + agencyNumber + ", account " + accountNumber + " and your account's balance is $" + accountBalance +
-        *  ", avaliable for withdrawal.\n"); 
-        */
-       
-        System.out.println("\nHi, ".concat(clientsFirstName).concat(" ").concat(clientsLastName)
-        .concat(", thank you for creating a account in our bank! Your agency is "
+         System.out.println("\nHi, ".concat(clientsName).concat(", thank you for creating a account in our bank! Your agency is "
         .concat(agencyNumber).concat(", account ") + accountNumber +" ".concat(" and your account balance is $") 
         + accountBalance +" ".concat("avalaible for withdrawal.\n")));
 
