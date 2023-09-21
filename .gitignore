@@ -25,8 +25,8 @@ replay_pid*
 smart-tv/.vscode/settings.json
 
 #Diretories with code along material from classes 
-basic-java-dio/java-terminal
-basic-java-dio/smart-tv
+
+basic-java-dio/code-along-lessons/
 bank-account/.vscode/settings.json
 smart-tv/src/SmartTv.java
 smart-tv/src/User.java
@@ -38,3 +38,24 @@ java-terminal/.vscode/launch.json
 java-terminal/README.md
 
 .fake
+CodeAlongLessons/do-while/README.md
+CodeAlongLessons/do-while/.vscode/settings.json
+CodeAlongLessons/while-java/src/ExemploWhile.java
+CodeAlongLessons/while-java/.vscode/settings.json
+CodeAlongLessons/while-java/README.md
+CodeAlongLessons/smart-tv/src/User.java
+CodeAlongLessons/smart-tv/src/SmartTv.java
+CodeAlongLessons/smart-tv/.vscode/settings.json
+CodeAlongLessons/smart-tv/README.md
+CodeAlongLessons/java-terminal/src/MinhaClasse.java
+CodeAlongLessons/java-terminal/src/AboutMe.java
+CodeAlongLessons/java-terminal/.vscode/settings.json
+CodeAlongLessons/java-terminal/.vscode/launch.json
+CodeAlongLessons/java-terminal/README.md
+CodeAlongLessons/for-java/src/ForArray.java
+CodeAlongLessons/for-java/src/For.java
+CodeAlongLessons/for-java/src/ExemploBreakContinue.java
+CodeAlongLessons/for-java/.vscode/settings.json
+CodeAlongLessons/for-java/README.md
+CodeAlongLessons/exceptions/About.java
+CodeAlongLessons/do-while/src/ExemploDoWhile.java
